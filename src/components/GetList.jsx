@@ -6,26 +6,7 @@ import { useState } from 'react'
 
 function GetList({ data }) {
   const navigate = useNavigate("")
-  // const [days, setDays] = useState("")
-  // const [seconds, setSeconds] = useState("")
-  // const [hours, setHours] = useState("")
-  // const [mins, setMins] = useState("")
-  // const [secs, setSecs] = useState("")
-
-
-  // if (data !== undefined) {
-  //   {
-  //     data.map((e, idx) => {
-  //       setSeconds(e.duration)
-  //       setDays(Math.floor(seconds / (3600 * 24)))
-  //       setHours(Math.floor((seconds % (3600 * 24)) / 3600))
-  //       setMins(Math.floor((seconds % 3600) / 60))
-  //       setSecs(Math.floor(seconds % 60))
-
-
-  //   })
-  //   }
-  // }
+  
 
 
 
